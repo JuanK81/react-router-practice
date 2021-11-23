@@ -1,7 +1,13 @@
+import { Route } from "react-router";
 
 const Wellcome = () => {
     return (
-        <h1>The Wellcome Page</h1>
+        <section>
+            <h1>The Wellcome Page</h1>
+            <Route path="/wellcome/new-user">
+                <p>Wellcome, new user</p>
+            </Route>
+        </section>
     )
 };
 
